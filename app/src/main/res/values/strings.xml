@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BD601</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_menu_homepage">主页</string>
+    <string name="tab_menu_location">定位</string>
+    <string name="tab_menu_comm">通信</string>
+    <string name="tab_menu_uploadloc">位置上报</string>
+    <string name="top_app_name">北斗应用</string>
+</resources>
