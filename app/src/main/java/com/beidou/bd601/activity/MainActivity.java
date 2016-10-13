@@ -5,7 +5,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.TextView;
+
 import com.beidou.bd601.fragment.MyFragmentPagerAdapter;
 import com.beidou.bd601.R;
 
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         ViewPager.OnPageChangeListener {
 
     //UI Objects
-    private TextView txt_topbar;
+
     private RadioGroup rg_tab_bar;
     private RadioButton rb_homepage;
     private RadioButton rb_location;
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     }
 
     private void bindViews() {
-        txt_topbar = (TextView) findViewById(R.id.txt_topbar);
+
         rg_tab_bar = (RadioGroup) findViewById(R.id.rg_tab_bar);
         rb_homepage = (RadioButton) findViewById(R.id.rb_homepage);
         rb_location = (RadioButton) findViewById(R.id.rb_location);

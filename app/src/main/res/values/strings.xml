@@ -8,4 +8,6 @@
     <string name="tab_menu_comm">通信</string>
     <string name="tab_menu_uploadloc">位置上报</string>
     <string name="top_app_name">北斗应用</string>
+    <string name="rdss_signal_button">北斗一代信号</string>
+    <string name="rnss_signal_button">北斗二代信号</string>
 </resources>
