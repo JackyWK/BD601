@@ -7,7 +7,7 @@ import android.util.Log;
 
 /**
  * Created by wangkuan on 2016/10/10.
- * 获取各种北斗信息，向系统进行广播，例如北斗信号强度，北斗时间，北斗卡号，北斗
+ * 获取各种北斗信息，向系统进行广播，例如北斗信号强度，北斗时间，北斗卡号
  */
 public class BDInfoBroadcastService extends Service {
 
@@ -41,7 +41,7 @@ public class BDInfoBroadcastService extends Service {
     }
 
     @Override
-    //Service时被调用
+    //创建Service时被调用
     public void onCreate()
     {
         Log.i(TAG, "Service onCreate--->");
